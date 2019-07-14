@@ -1,2 +1,3 @@
 DEBUG=False
-SECRET_KEY='-1235hk%#f$jzvwqq%@obk3dyw_@c8cb2hcfn7_4m9um_q8yu_'
+SECRET_KEY=-1235hk%#f$jzvwqq%@obk3dyw_@c8cb2hcfn7_4m9um_q8yu_
+ALLOWED_HOSTS=localhost, 127.0.0.1
