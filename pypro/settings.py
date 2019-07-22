@@ -151,7 +151,6 @@ if AWS_ACCESS_KEY_ID:
     AWS_QUERYSTRING_AUTH = True
     AWS_S3_CUSTOM_DOMAIN = False
     COLLECTFAST_ENABLE = True
-
     AWS_DEFAULT_ACL = 'private'
 
     # Static Assets
