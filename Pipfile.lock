@@ -70,11 +70,10 @@
         },
         "docutils": {
             "hashes": [
-                "sha256:54a349c622ff31c91cbec43b0b512f113b5b24daf00e2ea530bb1bd9aac14849",
-                "sha256:d2ddba74835cb090a1b627d3de4e7835c628d07ee461f7b4480f51af2fe4d448",
-                "sha256:fa2e604dc8a1fe5676a6342d86aa410779df206eec24ebaf16b85687263d3ece"
+                "sha256:554158db07870b514e8df93800e95ee8fbf2a2388eb453c7f69206532a8a6fa5",
+                "sha256:82725b1051b92aaa42e240a4e5d6fafa2f6f5a2b5023b23a51c941dd7d863369"
             ],
-            "version": "==0.15"
+            "version": "==0.15.1"
         },
         "gunicorn": {
             "hashes": [
