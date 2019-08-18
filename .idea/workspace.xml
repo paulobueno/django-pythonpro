@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1c9374db-3fae-43f5-88b7-9254a354c58f" name="Default Changelist" comment="Fixing codecov">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pypro/base/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pypro/base/models.py" afterDir="false" />
+    <list default="true" id="1c9374db-3fae-43f5-88b7-9254a354c58f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contrib/env-sample" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/env-sample" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pypro/base/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/base/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pypro/base/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/base/models.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -378,7 +372,14 @@
       <option name="project" value="LOCAL" />
       <updated>1563757272302</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="1. Use email as log-in&#10;2. Add automatic migrations to heroku&#10;close #52 #87">
+      <created>1566100636409</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1566100636409</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TodoView">
@@ -424,6 +425,7 @@
     <MESSAGE value="Travis AWS config" />
     <MESSAGE value="Installing Collectfast lib" />
     <MESSAGE value="Fixing codecov" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixing codecov" />
+    <MESSAGE value="1. Use email as log-in&#10;2. Add automatic migrations to heroku&#10;close #52 #87" />
+    <option name="LAST_COMMIT_MESSAGE" value="1. Use email as log-in&#10;2. Add automatic migrations to heroku&#10;close #52 #87" />
   </component>
 </project>
