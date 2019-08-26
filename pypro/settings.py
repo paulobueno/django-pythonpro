@@ -12,7 +12,6 @@ https://docs.djangoproject.com/en/2.1/ref/settings/
 
 import os
 from functools import partial
-
 import dj_database_url
 from decouple import config, Csv
 
@@ -30,6 +29,7 @@ DEBUG = config('DEBUG', cast=bool)
 
 ALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())
 
+AUTH_USER_MODEL = 'base.User'
 
 # Application definition
 
@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'collectfast',
     'django.contrib.staticfiles',
-    'pypro.base',
+    'pypro.base'
 ]
 
 MIDDLEWARE = [
@@ -94,20 +94,20 @@ DATABASES = {
 
 AUTH_PASSWORD_VALIDATORS = [
     {
-        'NAME': 'django.contrib.auth.password_\
-        validation.UserAttributeSimilarityValidator',
+        'NAME': 'django.contrib.auth.password_' +
+        'validation.UserAttributeSimilarityValidator',
     },
     {
-        'NAME': 'django.contrib.auth.password_\
-        validation.MinimumLengthValidator',
+        'NAME': 'django.contrib.auth.password_' +
+        'validation.MinimumLengthValidator',
     },
     {
-        'NAME': 'django.contrib.auth.password_\
-        validation.CommonPasswordValidator',
+        'NAME': 'django.contrib.auth.password_' +
+        'validation.CommonPasswordValidator',
     },
     {
-        'NAME': 'django.contrib.auth.password_\
-        validation.NumericPasswordValidator',
+        'NAME': 'django.contrib.auth.password_' +
+        'validation.NumericPasswordValidator',
     },
 ]
 
@@ -145,11 +145,11 @@ AWS_ACCESS_KEY_ID = config('AWS_ACCESS_KEY_ID')
 if AWS_ACCESS_KEY_ID:  # pragma: no cover
     AWS_SECRET_ACCESS_KEY = config('AWS_SECRET_ACCESS_KEY')
     AWS_STORAGE_BUCKET_NAME = config('AWS_STORAGE_BUCKET_NAME')
-    AWS_S3_OBJECT_PARAMETERS = {'CacheControl': 'max-age-86400', }
+    AWS_S3_OBJECT_PARAMETERS = {'CacheControl': 'max-age=86400', }
     AWS_PRELOAD_METADATA = True
     AWS_AUTO_CREATE_BUCKET = False
     AWS_QUERYSTRING_AUTH = True
-    AWS_S3_CUSTOM_DOMAIN = False
+    AWS_S3_CUSTOM_DOMAIN = f'{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com'
     COLLECTFAST_ENABLE = True
     AWS_DEFAULT_ACL = 'private'
 
@@ -159,7 +159,7 @@ if AWS_ACCESS_KEY_ID:  # pragma: no cover
     STATIC_S3_PATH = 'static'
     STATIC_ROOT = f'/{STATIC_S3_PATH}/'
     STATIC_URL = \
-        f'//s3.amazonaws.com/{AWS_STORAGE_BUCKET_NAME}/{STATIC_S3_PATH}/'
+        f'//{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com/{STATIC_S3_PATH}/'
     ADMIN_MEDIA_PREFIX = STATIC_URL + 'admin/'
 
     # Upload Media Folder
@@ -168,7 +168,7 @@ if AWS_ACCESS_KEY_ID:  # pragma: no cover
     DEFAULT_S3_PATH = 'media'
     MEDIA_ROOT = f'/{DEFAULT_S3_PATH}/'
     MEDIA_URL = \
-        f'//s3.amazonaws.com/{AWS_STORAGE_BUCKET_NAME}/{DEFAULT_S3_PATH}/'
+        f'//{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com/{DEFAULT_S3_PATH}/'
 
     INSTALLED_APPS.append('s3_folder_storage')
     INSTALLED_APPS.append('storages')

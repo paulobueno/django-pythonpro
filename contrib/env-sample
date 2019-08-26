@@ -1,5 +1,5 @@
 DEBUG=False
-SECRET_KEY= xxxx
+SECRET_KEY= define your secret key
 ALLOWED_HOSTS=localhost, 127.0.0.1
 DATABASE_URL=postgres://postgres:prostgres@localhost/testdb
 # AWS CONFIG -------------------------
