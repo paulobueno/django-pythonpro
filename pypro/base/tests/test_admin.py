@@ -2,13 +2,17 @@ import pytest
 from pypro.base import models
 
 
+class FakeUser(models.UserManager):
+    pass
+
+fake_user = FakeUser()
+
 @pytest.mark.parametrize('email, password',
                         [
                         (None, 'abc'),
                         ('', 'abc')]
                         )
 def test_user_creation_no_email(email, password):
-    fake_user = models.UserManager()
     with pytest.raises(ValueError):
         assert fake_user.create_user(email=email, password=password)
 
@@ -21,5 +25,5 @@ def test_user_creation_no_email(email, password):
                           ('test_user@AMaRO.COM  ', 'test_user@amaro.com')]
                          )
 def test_email_normalize(email, norm_email):
-    fake_user = models.UserManager()
     assert fake_user.normalize_email(email=email) == norm_email
+

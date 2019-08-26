@@ -6,7 +6,7 @@ from django.utils import timezone
 from django.utils.translation import gettext_lazy as _
 
 
-class UserManager(BaseUserManager):
+class UserManager(BaseUserManager):  # pragma: no cover
     use_in_migrations = True
 
     def _create_user(self, email, password, **extra_fields):
@@ -38,7 +38,7 @@ class UserManager(BaseUserManager):
         return self._create_user(email, password, **extra_fields)
 
 
-class User(AbstractBaseUser, PermissionsMixin):
+class User(AbstractBaseUser, PermissionsMixin):  # pragma: no cover
     """
     App Base User Class
 

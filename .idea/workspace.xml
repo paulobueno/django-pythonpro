@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1c9374db-3fae-43f5-88b7-9254a354c58f" name="Default Changelist" comment="1. Use email as log-in&#10;2. Add automatic migrations to heroku&#10;close #52 #87">
-      <change afterPath="$PROJECT_DIR$/pypro/base/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pypro/base/tests/test_admin.py" afterDir="false" />
+    <list default="true" id="1c9374db-3fae-43f5-88b7-9254a354c58f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pypro/base/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/base/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pypro/base/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/base/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pypro/base/tests/test_admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/base/tests/test_admin.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -417,7 +418,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566101155511</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="1. Use email as log-in&#10;2. Add automatic migrations to heroku&#10;close #52 #87">
+      <created>1566527799980</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1566527799980</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
