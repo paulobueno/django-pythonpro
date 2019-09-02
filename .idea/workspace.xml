@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c9374db-3fae-43f5-88b7-9254a354c58f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/pypro/base/tests/test_admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/base/tests/test_admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,45 +14,24 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="django-pythonpro" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Python Script" />
-      </list>
-    </option>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>pro</find>
+      <find>py</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="master" />
-      </map>
-    </option>
   </component>
-  <component name="ProjectId" id="1OfCVZbUwEnrVADYLbzwyWgjO6n" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/contrib" />
-    <property name="restartRequiresConfirmation" value="false" />
-    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="tasks" />
-  </component>
-  <component name="Push.Settings">
-    <force-push-targets>
-      <force-push-target remote-path="origin" branch="1" />
-    </force-push-targets>
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/contrib" />
-    </key>
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/manage.py" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -62,7 +45,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in test_admin.py">
+  <component name="RunManager">
     <configuration name="Django" type="PythonConfigurationType" factoryName="Python">
       <module name="django-pythonpro" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -84,93 +67,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_admin" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="django-pythonpro" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pypro/base/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pypro/base/tests/test_admin.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_admin.test_user_creation_noemail" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="django-pythonpro" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pypro/base/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_admin.test_user_creation_noemail&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_admin.test_user_creation_nosuper" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="django-pythonpro" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pypro/base/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_admin.test_user_creation_nosuper&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest in test_admin.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="django-pythonpro" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pypro/base/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/pypro/base/tests/test_admin.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest in tests" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="django-pythonpro" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pypro/base/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/pypro/base/tests&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python tests.pytest in test_admin.py" />
-        <item itemvalue="Python.test_admin" />
-        <item itemvalue="Python tests.pytest in tests" />
-        <item itemvalue="Python tests.pytest for test_admin.test_user_creation_nosuper" />
-        <item itemvalue="Python tests.pytest for test_admin.test_user_creation_noemail" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration>$USER_HOME$/.subversion</configuration>
@@ -239,203 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1556848497813</updated>
     </task>
-    <task id="LOCAL-00009" summary="Created base app">
-      <created>1559184605907</created>
+    <task id="LOCAL-00009" summary="heroku a">
+      <created>1567387023968</created>
       <option name="number" value="00009" />
       <option name="presentableId" value="LOCAL-00009" />
       <option name="project" value="LOCAL" />
-      <updated>1559184605907</updated>
+      <updated>1567387023968</updated>
     </task>
-    <task id="LOCAL-00010" summary="Creating app base">
-      <created>1559358110026</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1559358110026</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Creating app base">
-      <created>1559358371540</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1559358371540</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Creating app base">
-      <created>1559358519242</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1559358519242</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Creating app base&#10;&#10;close #1">
-      <created>1559359524258</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1559359524258</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Creating app base&#10;&#10;close #1">
-      <created>1559359547969</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1559359547969</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Creating app base&#10;&#10;close #6">
-      <created>1559359787217</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1559359787217</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Creating automated tests&#10;&#10;close #8">
-      <created>1559445033329</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1559445033329</updated>
-    </task>
-    <task id="LOCAL-00017" summary="Creating automated tests&#10;&#10;close #8">
-      <created>1559445723988</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1559445723988</updated>
-    </task>
-    <task id="LOCAL-00018" summary="Setting debug=False&#10;&#10;DEBUG=False in Heroku and DEBUG=True in dev">
-      <created>1559452822569</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1559452822569</updated>
-    </task>
-    <task id="LOCAL-00019" summary="updating django">
-      <created>1562727815754</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1562727815754</updated>
-    </task>
-    <task id="LOCAL-00020" summary="Config of ALLOWED_HOSTS&#10;close #26">
-      <created>1563073288335</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1563073288335</updated>
-    </task>
-    <task id="LOCAL-00021" summary="Config of ALLOWED_HOSTS&#10;close #26">
-      <created>1563073702529</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1563073702529</updated>
-    </task>
-    <task id="LOCAL-00022" summary="Config DATABASE_URL">
-      <created>1563138957972</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1563138957972</updated>
-    </task>
-    <task id="LOCAL-00023" summary="Config DATABASE_URL">
-      <created>1563139084280</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1563139084280</updated>
-    </task>
-    <task id="LOCAL-00024" summary="Config DATABASE and Travis">
-      <created>1563157479448</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1563157479448</updated>
-    </task>
-    <task id="LOCAL-00025" summary="Config TimeZone and Language">
-      <created>1563504092758</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1563504092758</updated>
-    </task>
-    <task id="LOCAL-00026" summary="Config S3 and Collect Static Files">
-      <created>1563733371079</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1563733371079</updated>
-    </task>
-    <task id="LOCAL-00027" summary="Config S3 and Collect Static Files">
-      <created>1563734451847</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1563734451847</updated>
-    </task>
-    <task id="LOCAL-00028" summary="Travis AWS config">
-      <created>1563738705156</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1563738705156</updated>
-    </task>
-    <task id="LOCAL-00029" summary="Installing Collectfast lib">
-      <created>1563740210781</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1563740210781</updated>
-    </task>
-    <task id="LOCAL-00030" summary="Installing Collectfast lib">
-      <created>1563756466294</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1563756466294</updated>
-    </task>
-    <task id="LOCAL-00031" summary="Fixing codecov">
-      <created>1563757272302</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1563757272302</updated>
-    </task>
-    <task id="LOCAL-00032" summary="1. Use email as log-in&#10;2. Add automatic migrations to heroku&#10;close #52 #87">
-      <created>1566100636409</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1566100636409</updated>
-    </task>
-    <task id="LOCAL-00033" summary="1. Use email as log-in&#10;2. Add automatic migrations to heroku&#10;close #52 #87">
-      <created>1566101155511</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1566101155511</updated>
-    </task>
-    <task id="LOCAL-00034" summary="1. Use email as log-in&#10;2. Add automatic migrations to heroku&#10;close #52 #87">
-      <created>1566527799980</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1566527799980</updated>
-    </task>
-    <task id="LOCAL-00035" summary="1. Use email as log-in&#10;2. Add automatic migrations to heroku&#10;close #52 #87">
-      <created>1566786305232</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1566786305233</updated>
-    </task>
-    <task id="LOCAL-00036" summary="1. Use email as log-in&#10;2. Add automatic migrations to heroku&#10;close #52 #87">
-      <created>1566786920426</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1566786920426</updated>
-    </task>
-    <option name="localTasksCounter" value="37" />
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -443,9 +150,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -457,22 +162,7 @@
     <MESSAGE value="adding pyup.io" />
     <MESSAGE value="updating read.me" />
     <MESSAGE value="heroku" />
-    <MESSAGE value="Created base app" />
-    <MESSAGE value="Creating app base" />
-    <MESSAGE value="Creating app base&#10;&#10;close #1" />
-    <MESSAGE value="Creating app base&#10;&#10;close #6" />
-    <MESSAGE value="Creating automated tests&#10;&#10;close #8" />
-    <MESSAGE value="Setting debug=False&#10;&#10;DEBUG=False in Heroku and DEBUG=True in dev" />
-    <MESSAGE value="updating django" />
-    <MESSAGE value="Config of ALLOWED_HOSTS&#10;close #26" />
-    <MESSAGE value="Config DATABASE_URL" />
-    <MESSAGE value="Config DATABASE and Travis" />
-    <MESSAGE value="Config TimeZone and Language" />
-    <MESSAGE value="Config S3 and Collect Static Files" />
-    <MESSAGE value="Travis AWS config" />
-    <MESSAGE value="Installing Collectfast lib" />
-    <MESSAGE value="Fixing codecov" />
-    <MESSAGE value="1. Use email as log-in&#10;2. Add automatic migrations to heroku&#10;close #52 #87" />
-    <option name="LAST_COMMIT_MESSAGE" value="1. Use email as log-in&#10;2. Add automatic migrations to heroku&#10;close #52 #87" />
+    <MESSAGE value="heroku a" />
+    <option name="LAST_COMMIT_MESSAGE" value="heroku a" />
   </component>
 </project>
