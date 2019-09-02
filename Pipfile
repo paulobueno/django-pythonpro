@@ -5,10 +5,19 @@ verify_ssl = true
 
 [dev-packages]
 flake8 = "*"
+pytest-django = "*"
+pytest-cov = "*"
+codecov = "*"
 
 [packages]
 django = "*"
 gunicorn = "*"
+python-decouple = "*"
+update = "*"
+dj-database-url = "*"
+psycopg2-binary = "*"
+django-s3-folder-storage = "*"
+collectfast = "*"
 
 [requires]
 python_version = "3.7"
