@@ -1,2 +1,2 @@
-release: python manage.py migrate --noinput -a paulobdjango
+release: python manage.py migrate --noinput
 web: gunicorn pypro.wsgi --log-file -
