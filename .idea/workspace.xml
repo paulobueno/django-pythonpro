@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1c9374db-3fae-43f5-88b7-9254a354c58f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="1c9374db-3fae-43f5-88b7-9254a354c58f" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -257,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567392433518</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Adding migrations to heroku&#10;close #87">
+      <created>1567880430201</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1567880430201</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -282,6 +287,7 @@
     <MESSAGE value="heroku a" />
     <MESSAGE value="Heroku Migrations setup" />
     <MESSAGE value="New release" />
-    <option name="LAST_COMMIT_MESSAGE" value="New release" />
+    <MESSAGE value="Adding migrations to heroku&#10;close #87" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding migrations to heroku&#10;close #87" />
   </component>
 </project>
