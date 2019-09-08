@@ -184,5 +184,5 @@ if AWS_ACCESS_KEY_ID:  # pragma: no cover
 
 SENTRY_DSN = config('SENTRY_DSN', default=None)
 
-if SENTRY_DSN:
+if SENTRY_DSN:  # pragma: no cover
     sentry_sdk.init(dsn=SENTRY_DSN, integrations=[DjangoIntegration()])
