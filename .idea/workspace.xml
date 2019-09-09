@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c9374db-3fae-43f5-88b7-9254a354c58f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pypro/base/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/base/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -312,7 +311,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567918919169</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="New template - HTML+CSS">
+      <created>1567994747895</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1567994747896</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -340,6 +346,7 @@
     <MESSAGE value="Adding migrations to heroku&#10;close #87" />
     <MESSAGE value="Install Django Debug Toolbar&#10;close #123" />
     <MESSAGE value="Install Sentry&#10;close #126" />
-    <option name="LAST_COMMIT_MESSAGE" value="Install Sentry&#10;close #126" />
+    <MESSAGE value="New template - HTML+CSS" />
+    <option name="LAST_COMMIT_MESSAGE" value="New template - HTML+CSS" />
   </component>
 </project>
