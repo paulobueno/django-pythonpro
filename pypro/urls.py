@@ -20,7 +20,8 @@ from django.urls import path, include
 from pypro.base.views import home
 
 
-def trigger_error(request):  # pragma: no cover
+# pragma: no cover
+def trigger_error(request):
     return 1 / 0
 
 
