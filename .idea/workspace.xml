@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c9374db-3fae-43f5-88b7-9254a354c58f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pypro/base/tests/test_home.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/base/tests/test_home.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -341,7 +340,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567996708899</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="New template - HTML+CSS + New Title">
+      <created>1569705150386</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1569705150386</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -370,6 +376,7 @@
     <MESSAGE value="Install Django Debug Toolbar&#10;close #123" />
     <MESSAGE value="Install Sentry&#10;close #126" />
     <MESSAGE value="New template - HTML+CSS" />
-    <option name="LAST_COMMIT_MESSAGE" value="New template - HTML+CSS" />
+    <MESSAGE value="New template - HTML+CSS + New Title" />
+    <option name="LAST_COMMIT_MESSAGE" value="New template - HTML+CSS + New Title" />
   </component>
 </project>
