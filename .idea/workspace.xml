@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c9374db-3fae-43f5-88b7-9254a354c58f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/pypro/base/django_assertions.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/base/django_assertions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pypro/base/tests/test_home.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/base/tests/test_home.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +62,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Django">
+  <component name="RunManager" selected="Python tests.pytest in test_home.py">
     <configuration name="Django" type="PythonConfigurationType" factoryName="Python">
       <module name="django-pythonpro" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -160,8 +161,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest for test_home.test_title" />
         <item itemvalue="Python tests.pytest in test_home.py" />
+        <item itemvalue="Python tests.pytest for test_home.test_title" />
         <item itemvalue="Python tests.pytest in tests" />
         <item itemvalue="Python tests.pytest in test_admin.py" />
         <item itemvalue="Python tests.pytest for test_admin.test_user_creation_nosuper" />
@@ -354,7 +355,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569705577616</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="New template - HTML+CSS + New Title">
+      <created>1569705694727</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1569705694727</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
