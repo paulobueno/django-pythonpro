@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1c9374db-3fae-43f5-88b7-9254a354c58f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/base/templates/base/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/base/templates/base/home.html" afterDir="false" />
+    <list default="true" id="1c9374db-3fae-43f5-88b7-9254a354c58f" name="Default Changelist" comment="Adding real content">
       <change beforePath="$PROJECT_DIR$/pypro/base/tests/test_home.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/base/tests/test_home.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -372,7 +369,21 @@
       <option name="project" value="LOCAL" />
       <updated>1569797957931</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Adding real content">
+      <created>1569812234332</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1569812234332</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Adding real content">
+      <created>1569812290793</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1569812290793</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -402,6 +413,7 @@
     <MESSAGE value="Install Sentry&#10;close #126" />
     <MESSAGE value="New template - HTML+CSS" />
     <MESSAGE value="New template - HTML+CSS + New Title" />
-    <option name="LAST_COMMIT_MESSAGE" value="New template - HTML+CSS + New Title" />
+    <MESSAGE value="Adding real content" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding real content" />
   </component>
 </project>

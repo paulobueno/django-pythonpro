@@ -1,5 +1,6 @@
 import pytest
 from django.urls import reverse
+
 from pypro.base.django_assertions import assert_contains
 
 
@@ -18,4 +19,5 @@ def test_title(resp):
 
 
 def test_home_link(resp):
-    assert_contains(resp, f'href="{reverse("base:home")}">Python Projects Fun</a>')
+    assert_contains(resp,
+        f'href="{reverse("base:home")}">Python Projects Fun</a>')
