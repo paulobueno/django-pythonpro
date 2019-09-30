@@ -17,7 +17,6 @@ Including another URLconf
 from django.conf import settings
 from django.contrib import admin
 from django.urls import path, include
-from pypro.base.views import home
 
 
 # pragma: no cover
@@ -27,7 +26,7 @@ def trigger_error(request):
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', home),
+    path('', include('pypro.base.urls')),
     path('sentry-debug/', trigger_error),
 ]
 
