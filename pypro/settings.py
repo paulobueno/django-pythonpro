@@ -158,7 +158,8 @@ if AWS_ACCESS_KEY_ID:  # pragma: no cover
     AWS_PRELOAD_METADATA = True
     AWS_AUTO_CREATE_BUCKET = False
     AWS_QUERYSTRING_AUTH = True
-    AWS_S3_CUSTOM_DOMAIN = f's3-sa-east-1.amazonaws.com/{AWS_STORAGE_BUCKET_NAME}'
+    AWS_S3_CUSTOM_DOMAIN = f's3-sa-east-1.amazonaws.com/' \
+                           f'{AWS_STORAGE_BUCKET_NAME}'
     COLLECTFAST_ENABLE = True
     AWS_DEFAULT_ACL = 'private'
 

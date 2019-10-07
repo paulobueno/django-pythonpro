@@ -405,7 +405,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570413967512</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="adjusts in home.html">
+      <created>1570417390224</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1570417390224</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -440,17 +447,7 @@
     <MESSAGE value="New template - HTML+CSS + New Title" />
     <MESSAGE value="Adding real content" />
     <MESSAGE value="Adding footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding footer" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/pypro/settings.py</url>
-          <line>160</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="adjusts in home.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="adjusts in home.html" />
   </component>
 </project>
