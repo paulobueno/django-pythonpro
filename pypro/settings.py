@@ -158,7 +158,7 @@ if AWS_ACCESS_KEY_ID:  # pragma: no cover
     AWS_PRELOAD_METADATA = True
     AWS_AUTO_CREATE_BUCKET = False
     AWS_QUERYSTRING_AUTH = True
-    AWS_S3_CUSTOM_DOMAIN = f'{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com'
+    AWS_S3_CUSTOM_DOMAIN = f's3-sa-east-1.amazonaws.com/{AWS_STORAGE_BUCKET_NAME}'
     COLLECTFAST_ENABLE = True
     AWS_DEFAULT_ACL = 'private'
 
@@ -168,7 +168,8 @@ if AWS_ACCESS_KEY_ID:  # pragma: no cover
     STATIC_S3_PATH = 'static'
     STATIC_ROOT = f'/{STATIC_S3_PATH}/'
     STATIC_URL = \
-        f'//{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com/{STATIC_S3_PATH}/'
+        f'//{AWS_S3_CUSTOM_DOMAIN}/' \
+        f'{STATIC_S3_PATH}/'
     ADMIN_MEDIA_PREFIX = STATIC_URL + 'admin/'
 
     # Upload Media Folder
@@ -177,8 +178,8 @@ if AWS_ACCESS_KEY_ID:  # pragma: no cover
     DEFAULT_S3_PATH = 'media'
     MEDIA_ROOT = f'/{DEFAULT_S3_PATH}/'
     MEDIA_URL = \
-        f'//{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com/{DEFAULT_S3_PATH}/'
-
+        f'//{AWS_S3_CUSTOM_DOMAIN}/' \
+        f'{DEFAULT_S3_PATH}/'
     INSTALLED_APPS.append('s3_folder_storage')
     INSTALLED_APPS.append('storages')
 
