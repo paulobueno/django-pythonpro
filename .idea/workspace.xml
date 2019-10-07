@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1c9374db-3fae-43f5-88b7-9254a354c58f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/base/templates/base/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/base/templates/base/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pypro/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -398,7 +398,21 @@
       <option name="project" value="LOCAL" />
       <updated>1569812873445</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Adding footer">
+      <created>1570413967511</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1570413967512</updated>
+    </task>
+    <task id="LOCAL-00033" summary="adjusts in home.html">
+      <created>1570417390224</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1570417390224</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -432,6 +446,8 @@
     <MESSAGE value="New template - HTML+CSS" />
     <MESSAGE value="New template - HTML+CSS + New Title" />
     <MESSAGE value="Adding real content" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding real content" />
+    <MESSAGE value="Adding footer" />
+    <MESSAGE value="adjusts in home.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="adjusts in home.html" />
   </component>
 </project>
