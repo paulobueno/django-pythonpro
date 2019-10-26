@@ -19,7 +19,7 @@ def test_status_home(resp):
 def test_title(resp):
     assert_contains(
         resp,
-        '<title>Python Projects Fun</title>'
+        '<title>Python Projects Fun - Home</title>'
     )
 
 
