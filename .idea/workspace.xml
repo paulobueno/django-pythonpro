@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1c9374db-3fae-43f5-88b7-9254a354c58f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/base/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/base/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pypro/base/templates/base/triangles_wall.html" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/base/templates/base/triangles_wall.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -272,7 +272,7 @@
       <workItem from="1571623911318" duration="123000" />
       <workItem from="1571624054273" duration="1787000" />
       <workItem from="1572064031410" duration="11157000" />
-      <workItem from="1572142476199" duration="295000" />
+      <workItem from="1572142476199" duration="6509000" />
     </task>
     <task id="LOCAL-00001" summary="initial pull">
       <created>1552274128809</created>
@@ -526,7 +526,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572141378530</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="addind triangle wall project page">
+      <created>1572143016853</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1572143016853</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
