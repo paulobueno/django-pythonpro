@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c9374db-3fae-43f5-88b7-9254a354c58f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/django-pythonpro.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/django-pythonpro.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pypro/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +59,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="DatabaseDriversLRU" value="mysql&#10;postgresql&#10;sqlite" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -273,7 +272,7 @@
       <workItem from="1574031245268" duration="6004000" />
       <workItem from="1585510493124" duration="1168000" />
       <workItem from="1585511668591" duration="427000" />
-      <workItem from="1585512102673" duration="5094000" />
+      <workItem from="1585512102673" duration="9881000" />
     </task>
     <task id="LOCAL-00001" summary="initial pull">
       <created>1552274128809</created>
@@ -555,7 +554,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585510774102</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Add details to README">
+      <created>1585517343762</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1585517343762</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -599,57 +605,78 @@
     <MESSAGE value="updating triangle page" />
     <MESSAGE value="fix navbar to mobile" />
     <MESSAGE value="Add URL to README" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add URL to README" />
+    <MESSAGE value="Add details to README" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add details to README" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="901" y="149" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585516953143">
+    <state x="908" y="159" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585531772580">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state x="901" y="149" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1585516953143" />
-    <state x="710" y="358" width="559" height="397" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585511607577">
+    <state x="908" y="159" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1585531772580" />
+    <state x="710" y="358" width="590" height="404" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585531238423">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state x="710" y="358" width="559" height="397" key="#com.intellij.fileTypes.FileTypeChooser/70.27.1850.1053@70.27.1850.1053" timestamp="1585511607577" />
-    <state x="728" y="302" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585515249763">
+    <state x="710" y="358" width="590" height="404" key="#com.intellij.fileTypes.FileTypeChooser/70.27.1850.1053@70.27.1850.1053" timestamp="1585531238423" />
+    <state x="728" y="302" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585532351314">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state x="728" y="302" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1585515249763" />
-    <state x="560" y="130" width="860" height="854" key="CommitChangelistDialog2" timestamp="1585510774002">
+    <state x="728" y="302" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1585532351314" />
+    <state x="560" y="130" width="860" height="854" key="CommitChangelistDialog2" timestamp="1585532418088">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state x="560" y="130" width="860" height="854" key="CommitChangelistDialog2/70.27.1850.1053@70.27.1850.1053" timestamp="1585510774002" />
+    <state x="560" y="130" width="860" height="854" key="CommitChangelistDialog2/70.27.1850.1053@70.27.1850.1053" timestamp="1585532418088" />
     <state x="732" y="334" width="515" height="451" key="EnvironmentVariablesDialog" timestamp="1585510932039">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="732" y="334" width="515" height="451" key="EnvironmentVariablesDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1585510932039" />
-    <state x="385" y="358" width="424" height="491" key="FileChooserDialogImpl" timestamp="1585511047877">
+    <state x="385" y="358" width="424" height="491" key="FileChooserDialogImpl" timestamp="1585531766671">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state x="385" y="358" width="424" height="491" key="FileChooserDialogImpl/70.27.1850.1053@70.27.1850.1053" timestamp="1585511047877" />
-    <state width="1804" height="263" key="GridCell.Tab.0.bottom" timestamp="1585516084450">
+    <state x="385" y="358" width="424" height="491" key="FileChooserDialogImpl/70.27.1850.1053@70.27.1850.1053" timestamp="1585531766671" />
+    <state width="1804" height="428" key="GridCell.Tab.0.bottom" timestamp="1585532364344">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="1804" height="263" key="GridCell.Tab.0.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1585516084450" />
-    <state width="1804" height="263" key="GridCell.Tab.0.center" timestamp="1585516084450">
+    <state width="1804" height="428" key="GridCell.Tab.0.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1585532364344" />
+    <state width="1804" height="428" key="GridCell.Tab.0.center" timestamp="1585532364343">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="1804" height="263" key="GridCell.Tab.0.center/70.27.1850.1053@70.27.1850.1053" timestamp="1585516084450" />
-    <state width="1804" height="263" key="GridCell.Tab.0.left" timestamp="1585516084450">
+    <state width="1804" height="428" key="GridCell.Tab.0.center/70.27.1850.1053@70.27.1850.1053" timestamp="1585532364343" />
+    <state width="1804" height="428" key="GridCell.Tab.0.left" timestamp="1585532364343">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="1804" height="263" key="GridCell.Tab.0.left/70.27.1850.1053@70.27.1850.1053" timestamp="1585516084450" />
-    <state width="1804" height="263" key="GridCell.Tab.0.right" timestamp="1585516084450">
+    <state width="1804" height="428" key="GridCell.Tab.0.left/70.27.1850.1053@70.27.1850.1053" timestamp="1585532364343" />
+    <state width="1804" height="428" key="GridCell.Tab.0.right" timestamp="1585532364343">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="1804" height="263" key="GridCell.Tab.0.right/70.27.1850.1053@70.27.1850.1053" timestamp="1585516084450" />
+    <state width="1804" height="428" key="GridCell.Tab.0.right/70.27.1850.1053@70.27.1850.1053" timestamp="1585532364343" />
+    <state width="1804" height="340" key="GridCell.Tab.1.bottom" timestamp="1585531785170">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="1804" height="340" key="GridCell.Tab.1.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1585531785170" />
+    <state width="1804" height="340" key="GridCell.Tab.1.center" timestamp="1585531785169">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="1804" height="340" key="GridCell.Tab.1.center/70.27.1850.1053@70.27.1850.1053" timestamp="1585531785169" />
+    <state width="1804" height="340" key="GridCell.Tab.1.left" timestamp="1585531785169">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="1804" height="340" key="GridCell.Tab.1.left/70.27.1850.1053@70.27.1850.1053" timestamp="1585531785169" />
+    <state width="1804" height="340" key="GridCell.Tab.1.right" timestamp="1585531785169">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="1804" height="340" key="GridCell.Tab.1.right/70.27.1850.1053@70.27.1850.1053" timestamp="1585531785169" />
+    <state width="263" height="500" key="HiddenNamespacesPopup" timestamp="1585531230216">
+      <screen x="70" y="27" width="1850" height="1053" />
+    </state>
+    <state width="263" height="500" key="HiddenNamespacesPopup/70.27.1850.1053@70.27.1850.1053" timestamp="1585531230216" />
     <state x="484" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1585516056708">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="484" y="188" width="1022" height="737" key="SettingsEditor/70.27.1850.1053@70.27.1850.1053" timestamp="1585516056708" />
-    <state x="590" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1585510779193">
+    <state x="590" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1585517349072">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state x="590" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/70.27.1850.1053@70.27.1850.1053" timestamp="1585510779193" />
+    <state x="590" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/70.27.1850.1053@70.27.1850.1053" timestamp="1585517349072" />
     <state x="651" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1585512105992">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
@@ -658,6 +685,17 @@
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="763" y="473" width="454" height="167" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/70.27.1850.1053@70.27.1850.1053" timestamp="1585515087416" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pypro/settings.py</url>
+          <line>89</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/django_pythonpro$pytest_in_test_home_py.coverage" NAME="pytest in test_home.py Coverage Results" MODIFIED="1572064918723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pypro/base/tests" />

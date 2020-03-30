@@ -23,3 +23,9 @@ To install all dependencies, including to develop, run the following command
 ```
 pipenv install --dev
 ```
+add your secret key to your `.env` file, that can be generated as bellow:
+```
+# on python terminal
+>>> from django.core.management.utils import get_random_secret_key
+>>> get_random_secret_key()
+```
