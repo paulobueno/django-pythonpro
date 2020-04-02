@@ -29,3 +29,8 @@ add your secret key to your `.env` file, that can be generated as bellow:
 >>> from django.core.management.utils import get_random_secret_key
 >>> get_random_secret_key()
 ```
+
+on terminal
+```
+mng migrate
+```
