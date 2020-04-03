@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'collectfast',
     'django.contrib.staticfiles',
-    'pypro.base'
+    'base'
 ]
 
 MIDDLEWARE = [
@@ -165,7 +165,7 @@ if AWS_ACCESS_KEY_ID:  # pragma: no cover
     # Static Assets
     # ===============================================================
     STATICFILES_STORAGE = 's3_folder_storage.s3.StaticStorage'
-    STATIC_S3_PATH = 'base/static'
+    STATIC_S3_PATH = '../base/static'
     STATIC_ROOT = f'/{STATIC_S3_PATH}/'
     STATIC_URL = \
         f'//{AWS_S3_CUSTOM_DOMAIN}/' \

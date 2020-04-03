@@ -26,7 +26,7 @@ def trigger_error(request):
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('pypro.base.urls')),
+    path('', include('base.urls')),
     path('sentry-debug/', trigger_error),
 ]
 

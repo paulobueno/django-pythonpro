@@ -2,13 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c9374db-3fae-43f5-88b7-9254a354c58f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/base/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pypro/base/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pypro/base/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pypro/base/django_assertions.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/django_assertions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pypro/base/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pypro/base/migrations/0002_auto_20190901_2258.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/migrations/0002_auto_20190901_2258.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pypro/base/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pypro/base/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pypro/base/templates/base/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/base/templates/base/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pypro/base/templates/base/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/base/templates/base/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pypro/base/templates/base/triangles_wall.html" beforeDir="false" afterPath="$PROJECT_DIR$/base/templates/base/triangles_wall.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pypro/base/tests/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/tests/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pypro/base/tests/test_admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/tests/test_admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pypro/base/tests/test_home.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/tests/test_home.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pypro/base/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pypro/base/views.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pypro/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pypro/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +86,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/staticfiles/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -83,17 +96,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/base" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/pypro" />
+      <recent name="$PROJECT_DIR$/pypro/base" />
+      <recent name="$PROJECT_DIR$/pypro/base/static/img" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/staticfiles/img" />
       <recent name="$PROJECT_DIR$/pypro/base/templates/base" />
       <recent name="$PROJECT_DIR$/pypro/base/static/img" />
       <recent name="$PROJECT_DIR$/pypro/base/static/js" />
       <recent name="$PROJECT_DIR$/pypro/base/static/css" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/pypro" />
-      <recent name="$PROJECT_DIR$/pypro/base/static/img" />
     </key>
   </component>
   <component name="RunManager" selected="Django server.Django">
@@ -164,35 +179,35 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_home.test_home_link" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for base.tests.test_home.test_home_link" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="django-pythonpro" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pypro/base/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/base/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_home.test_home_link&quot;" />
+      <option name="_new_target" value="&quot;base.tests.test_home.test_home_link&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_home.test_title" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for base.tests.test_home.test_title" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="django-pythonpro" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pypro/base/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/base/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_home.test_title&quot;" />
+      <option name="_new_target" value="&quot;base.tests.test_home.test_title&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -201,14 +216,14 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pypro/base/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/base/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/pypro/base/tests/test_admin.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/base/tests/test_admin.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -217,14 +232,14 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pypro/base/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/base/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/pypro/base/tests/test_home.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/base/tests/test_home.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -233,30 +248,30 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pypro/base/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/base/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/pypro/base/tests&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/base/tests&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Django server.Django" />
-      <item itemvalue="Python tests.pytest for test_home.test_home_link" />
-      <item itemvalue="Python tests.pytest for test_home.test_title" />
       <item itemvalue="Python tests.pytest in test_admin.py" />
       <item itemvalue="Python tests.pytest in test_home.py" />
       <item itemvalue="Python tests.pytest in tests" />
+      <item itemvalue="Python tests.pytest for base.tests.test_home.test_home_link" />
+      <item itemvalue="Python tests.pytest for base.tests.test_home.test_title" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.pytest in test_home.py" />
-        <item itemvalue="Python tests.pytest for test_home.test_home_link" />
-        <item itemvalue="Python tests.pytest for test_home.test_title" />
+        <item itemvalue="Python tests.pytest for base.tests.test_home.test_home_link" />
+        <item itemvalue="Python tests.pytest for base.tests.test_home.test_title" />
         <item itemvalue="Python tests.pytest in tests" />
         <item itemvalue="Python tests.pytest in test_admin.py" />
       </list>
@@ -286,7 +301,8 @@
       <workItem from="1585617943470" duration="208000" />
       <workItem from="1585618188575" duration="2426000" />
       <workItem from="1585708441160" duration="2763000" />
-      <workItem from="1585789854158" duration="4843000" />
+      <workItem from="1585789854158" duration="5007000" />
+      <workItem from="1585878053260" duration="3077000" />
     </task>
     <task id="LOCAL-00001" summary="initial pull">
       <created>1552274128809</created>
@@ -582,7 +598,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585532436157</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Fix paths to run project locally">
+      <created>1585795860093</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1585795860094</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -628,7 +651,8 @@
     <MESSAGE value="Add URL to README" />
     <MESSAGE value="Add details to README" />
     <MESSAGE value="Fix on DB address in .env" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix on DB address in .env" />
+    <MESSAGE value="Fix paths to run project locally" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix paths to run project locally" />
   </component>
   <component name="WindowStateProjectService">
     <state x="908" y="159" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585532599496">
@@ -643,10 +667,10 @@
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="728" y="302" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/70.27.1850.1053@70.27.1850.1053" timestamp="1585532351314" />
-    <state x="560" y="130" width="860" height="854" key="CommitChangelistDialog2" timestamp="1585536924814">
+    <state x="560" y="130" width="860" height="854" key="CommitChangelistDialog2" timestamp="1585795859992">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state x="560" y="130" width="860" height="854" key="CommitChangelistDialog2/70.27.1850.1053@70.27.1850.1053" timestamp="1585536924814" />
+    <state x="560" y="130" width="860" height="854" key="CommitChangelistDialog2/70.27.1850.1053@70.27.1850.1053" timestamp="1585795859992" />
     <state x="732" y="334" width="515" height="451" key="EnvironmentVariablesDialog" timestamp="1585510932039">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
@@ -655,38 +679,38 @@
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="385" y="358" width="424" height="491" key="FileChooserDialogImpl/70.27.1850.1053@70.27.1850.1053" timestamp="1585532594494" />
-    <state width="1804" height="271" key="GridCell.Tab.0.bottom" timestamp="1585795760529">
+    <state width="1804" height="271" key="GridCell.Tab.0.bottom" timestamp="1585879129715">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="1804" height="271" key="GridCell.Tab.0.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1585795760529" />
-    <state width="1804" height="271" key="GridCell.Tab.0.center" timestamp="1585795760528">
+    <state width="1804" height="271" key="GridCell.Tab.0.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1585879129715" />
+    <state width="1804" height="271" key="GridCell.Tab.0.center" timestamp="1585879129715">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="1804" height="271" key="GridCell.Tab.0.center/70.27.1850.1053@70.27.1850.1053" timestamp="1585795760528" />
-    <state width="1804" height="271" key="GridCell.Tab.0.left" timestamp="1585795760528">
+    <state width="1804" height="271" key="GridCell.Tab.0.center/70.27.1850.1053@70.27.1850.1053" timestamp="1585879129715" />
+    <state width="1804" height="271" key="GridCell.Tab.0.left" timestamp="1585879129715">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="1804" height="271" key="GridCell.Tab.0.left/70.27.1850.1053@70.27.1850.1053" timestamp="1585795760528" />
-    <state width="1804" height="271" key="GridCell.Tab.0.right" timestamp="1585795760529">
+    <state width="1804" height="271" key="GridCell.Tab.0.left/70.27.1850.1053@70.27.1850.1053" timestamp="1585879129715" />
+    <state width="1804" height="271" key="GridCell.Tab.0.right" timestamp="1585879129715">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="1804" height="271" key="GridCell.Tab.0.right/70.27.1850.1053@70.27.1850.1053" timestamp="1585795760529" />
-    <state width="1804" height="301" key="GridCell.Tab.1.bottom" timestamp="1585795329661">
+    <state width="1804" height="271" key="GridCell.Tab.0.right/70.27.1850.1053@70.27.1850.1053" timestamp="1585879129715" />
+    <state width="1804" height="301" key="GridCell.Tab.1.bottom" timestamp="1585795873395">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="1804" height="301" key="GridCell.Tab.1.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1585795329661" />
-    <state width="1804" height="301" key="GridCell.Tab.1.center" timestamp="1585795329660">
+    <state width="1804" height="301" key="GridCell.Tab.1.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1585795873395" />
+    <state width="1804" height="301" key="GridCell.Tab.1.center" timestamp="1585795873394">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="1804" height="301" key="GridCell.Tab.1.center/70.27.1850.1053@70.27.1850.1053" timestamp="1585795329660" />
-    <state width="1804" height="301" key="GridCell.Tab.1.left" timestamp="1585795329660">
+    <state width="1804" height="301" key="GridCell.Tab.1.center/70.27.1850.1053@70.27.1850.1053" timestamp="1585795873394" />
+    <state width="1804" height="301" key="GridCell.Tab.1.left" timestamp="1585795873394">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="1804" height="301" key="GridCell.Tab.1.left/70.27.1850.1053@70.27.1850.1053" timestamp="1585795329660" />
-    <state width="1804" height="301" key="GridCell.Tab.1.right" timestamp="1585795329660">
+    <state width="1804" height="301" key="GridCell.Tab.1.left/70.27.1850.1053@70.27.1850.1053" timestamp="1585795873394" />
+    <state width="1804" height="301" key="GridCell.Tab.1.right" timestamp="1585795873395">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="1804" height="301" key="GridCell.Tab.1.right/70.27.1850.1053@70.27.1850.1053" timestamp="1585795329660" />
+    <state width="1804" height="301" key="GridCell.Tab.1.right/70.27.1850.1053@70.27.1850.1053" timestamp="1585795873395" />
     <state width="263" height="500" key="HiddenNamespacesPopup" timestamp="1585531230216">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
@@ -695,10 +719,10 @@
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="484" y="188" width="1022" height="737" key="SettingsEditor/70.27.1850.1053@70.27.1850.1053" timestamp="1585516056708" />
-    <state x="590" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1585532437805">
+    <state x="590" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1585795864960">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state x="590" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/70.27.1850.1053@70.27.1850.1053" timestamp="1585532437805" />
+    <state x="590" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/70.27.1850.1053@70.27.1850.1053" timestamp="1585795864960" />
     <state x="651" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1585789854357">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>

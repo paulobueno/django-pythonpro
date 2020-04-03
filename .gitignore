@@ -102,5 +102,5 @@ venv.bak/
 
 # mypy
 .mypy_cache/
-/pypro/base/static/index.html
+/base/static/index.html
 /db.sqlite
