@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c9374db-3fae-43f5-88b7-9254a354c58f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/migrations/0001_initial.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -288,7 +289,7 @@
       <workItem from="1586312731531" duration="2646000" />
       <workItem from="1590789008739" duration="45000" />
       <workItem from="1590789064980" duration="818000" />
-      <workItem from="1600021706510" duration="4797000" />
+      <workItem from="1600021706510" duration="5374000" />
     </task>
     <task id="LOCAL-00001" summary="initial pull">
       <created>1552274128809</created>
@@ -626,7 +627,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600026829639</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="refactored files">
+      <created>1600027413888</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1600027413888</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -648,7 +656,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="adding pyup.io" />
     <MESSAGE value="updating read.me" />
     <MESSAGE value="heroku" />
     <MESSAGE value="heroku a" />
@@ -673,13 +680,14 @@
     <MESSAGE value="Reordering folders" />
     <MESSAGE value="website updates" />
     <MESSAGE value="update dependencies" />
-    <option name="LAST_COMMIT_MESSAGE" value="update dependencies" />
+    <MESSAGE value="refactored files" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactored files" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2766" y="101" width="912" height="911" key="CommitChangelistDialog2" timestamp="1600026828436">
+    <state x="2766" y="101" width="912" height="911" key="CommitChangelistDialog2" timestamp="1600027413701">
       <screen x="1920" y="0" width="2560" height="1080" />
     </state>
-    <state x="2766" y="101" width="912" height="911" key="CommitChangelistDialog2/1920.0.2560.1080/0.27.1920.1053@1920.0.2560.1080" timestamp="1600026828436" />
+    <state x="2766" y="101" width="912" height="911" key="CommitChangelistDialog2/1920.0.2560.1080/0.27.1920.1053@1920.0.2560.1080" timestamp="1600027413701" />
     <state width="2506" height="278" key="GridCell.Tab.0.bottom" timestamp="1600026758444">
       <screen x="1920" y="0" width="2560" height="1080" />
     </state>
@@ -696,14 +704,14 @@
       <screen x="1920" y="0" width="2560" height="1080" />
     </state>
     <state width="2506" height="278" key="GridCell.Tab.0.right/1920.0.2560.1080/0.27.1920.1053@1920.0.2560.1080" timestamp="1600026758443" />
-    <state x="2351" y="157" width="1686" height="737" key="SettingsEditor" timestamp="1600027324449">
+    <state x="2351" y="157" width="1686" height="737" key="SettingsEditor" timestamp="1600027903558">
       <screen x="1920" y="0" width="2560" height="1080" />
     </state>
-    <state x="2351" y="157" width="1686" height="737" key="SettingsEditor/1920.0.2560.1080/0.27.1920.1053@1920.0.2560.1080" timestamp="1600027324449" />
-    <state x="2822" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1600026831384">
+    <state x="2351" y="157" width="1686" height="737" key="SettingsEditor/1920.0.2560.1080/0.27.1920.1053@1920.0.2560.1080" timestamp="1600027903558" />
+    <state x="2822" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1600027414996">
       <screen x="1920" y="0" width="2560" height="1080" />
     </state>
-    <state x="2822" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/1920.0.2560.1080/0.27.1920.1053@1920.0.2560.1080" timestamp="1600026831384" />
+    <state x="2822" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/1920.0.2560.1080/0.27.1920.1053@1920.0.2560.1080" timestamp="1600027414996" />
     <state x="3008" y="468" width="438" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600025205098">
       <screen x="1920" y="0" width="2560" height="1080" />
     </state>
