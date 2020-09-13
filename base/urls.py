@@ -1,5 +1,5 @@
 from django.urls import path
-from pypro.base.views import home, triangles
+from base.views import home, triangles
 
 app_name = 'base'
 urlpatterns = [
