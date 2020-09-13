@@ -1,6 +1,6 @@
 import pytest
 
-from pypro.base import models
+from base import models
 
 
 class FakeUser(models.UserManager):
