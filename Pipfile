@@ -10,16 +10,17 @@ pytest-cov = "*"
 codecov = "*"
 
 [packages]
-django = "*"
+Django = "*"
 gunicorn = "*"
 python-decouple = "*"
 update = "*"
 dj-database-url = "*"
 psycopg2-binary = "*"
 django-s3-folder-storage = "*"
-collectfast = "*"
-django-debug-toolbar = "*"
+Collectfast = "*"
 sentry-sdk = "*"
+awscli = "*"
+django-debug-toolbar = "*"
 
 [requires]
-python_version = "3.7"
+python_version = "3.8"
