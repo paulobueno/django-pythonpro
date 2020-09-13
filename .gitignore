@@ -104,3 +104,4 @@ venv.bak/
 .mypy_cache/
 /base/static/index.html
 /db.sqlite
+/base/static/
