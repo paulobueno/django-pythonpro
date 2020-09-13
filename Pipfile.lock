@@ -222,10 +222,10 @@
         },
         "rsa": {
             "hashes": [
-                "sha256:25df4e10c263fb88b5ace923dd84bf9aa7f5019687b5e55382ffcdb8bede9db5",
-                "sha256:43f682fea81c452c98d09fc316aae12de6d30c4b5c84226642cf8f8fd1c93abd"
+                "sha256:109ea5a66744dd859bf16fe904b8d8b627adafb9408753161e766a92e7d681fa",
+                "sha256:23778f5523461cf86ae075f9482a99317f362bca752ae57cb118044066f4026f"
             ],
-            "version": "==3.4.2"
+            "version": "==4.6"
         },
         "s3transfer": {
             "hashes": [
