@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="1c9374db-3fae-43f5-88b7-9254a354c58f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/templates/base/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/base/templates/base/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/templates/base/triangles_wall.html" beforeDir="false" afterPath="$PROJECT_DIR$/base/templates/base/triangles_wall.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pypro/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -289,14 +291,8 @@
       <workItem from="1586312731531" duration="2646000" />
       <workItem from="1590789008739" duration="45000" />
       <workItem from="1590789064980" duration="818000" />
-      <workItem from="1600021706510" duration="7020000" />
-    </task>
-    <task id="LOCAL-00002" summary="adding travis">
-      <created>1553479273955</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1553479273955</updated>
+      <workItem from="1600021706510" duration="7656000" />
+      <workItem from="1600295779495" duration="4572000" />
     </task>
     <task id="LOCAL-00003" summary="adding travis">
       <created>1553479408337</created>
@@ -634,7 +630,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600028023721</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="refactored files">
+      <created>1600029576008</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1600029576008</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -684,34 +687,50 @@
     <option name="LAST_COMMIT_MESSAGE" value="refactored files" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2766" y="101" width="912" height="911" key="CommitChangelistDialog2" timestamp="1600028023292">
+    <state x="2766" y="101" width="912" height="911" key="CommitChangelistDialog2" timestamp="1600029574861">
       <screen x="1920" y="0" width="2560" height="1080" />
     </state>
-    <state x="2766" y="101" width="912" height="911" key="CommitChangelistDialog2/1920.0.2560.1080/0.27.1920.1053@1920.0.2560.1080" timestamp="1600028023292" />
-    <state width="2506" height="278" key="GridCell.Tab.0.bottom" timestamp="1600026758444">
+    <state x="2766" y="101" width="912" height="911" key="CommitChangelistDialog2/1920.0.2560.1080/0.27.1920.1053@1920.0.2560.1080" timestamp="1600029574861" />
+    <state width="2506" height="278" key="GridCell.Tab.0.bottom" timestamp="1600300317522">
       <screen x="1920" y="0" width="2560" height="1080" />
     </state>
-    <state width="2506" height="278" key="GridCell.Tab.0.bottom/1920.0.2560.1080/0.27.1920.1053@1920.0.2560.1080" timestamp="1600026758443" />
-    <state width="2506" height="278" key="GridCell.Tab.0.center" timestamp="1600026758443">
+    <state width="2506" height="278" key="GridCell.Tab.0.bottom/1920.0.2560.1080/0.27.1920.1053@1920.0.2560.1080" timestamp="1600300317522" />
+    <state width="2506" height="278" key="GridCell.Tab.0.center" timestamp="1600300317521">
       <screen x="1920" y="0" width="2560" height="1080" />
     </state>
-    <state width="2506" height="278" key="GridCell.Tab.0.center/1920.0.2560.1080/0.27.1920.1053@1920.0.2560.1080" timestamp="1600026758443" />
-    <state width="2506" height="278" key="GridCell.Tab.0.left" timestamp="1600026758443">
+    <state width="2506" height="278" key="GridCell.Tab.0.center/1920.0.2560.1080/0.27.1920.1053@1920.0.2560.1080" timestamp="1600300317521" />
+    <state width="2506" height="278" key="GridCell.Tab.0.left" timestamp="1600300317521">
       <screen x="1920" y="0" width="2560" height="1080" />
     </state>
-    <state width="2506" height="278" key="GridCell.Tab.0.left/1920.0.2560.1080/0.27.1920.1053@1920.0.2560.1080" timestamp="1600026758443" />
-    <state width="2506" height="278" key="GridCell.Tab.0.right" timestamp="1600026758443">
+    <state width="2506" height="278" key="GridCell.Tab.0.left/1920.0.2560.1080/0.27.1920.1053@1920.0.2560.1080" timestamp="1600300317521" />
+    <state width="2506" height="278" key="GridCell.Tab.0.right" timestamp="1600300317521">
       <screen x="1920" y="0" width="2560" height="1080" />
     </state>
-    <state width="2506" height="278" key="GridCell.Tab.0.right/1920.0.2560.1080/0.27.1920.1053@1920.0.2560.1080" timestamp="1600026758443" />
+    <state width="2506" height="278" key="GridCell.Tab.0.right/1920.0.2560.1080/0.27.1920.1053@1920.0.2560.1080" timestamp="1600300317521" />
+    <state width="2506" height="309" key="GridCell.Tab.1.bottom" timestamp="1600300035494">
+      <screen x="1920" y="0" width="2560" height="1080" />
+    </state>
+    <state width="2506" height="309" key="GridCell.Tab.1.bottom/1920.0.2560.1080/0.27.1920.1053@1920.0.2560.1080" timestamp="1600300035494" />
+    <state width="2506" height="309" key="GridCell.Tab.1.center" timestamp="1600300035494">
+      <screen x="1920" y="0" width="2560" height="1080" />
+    </state>
+    <state width="2506" height="309" key="GridCell.Tab.1.center/1920.0.2560.1080/0.27.1920.1053@1920.0.2560.1080" timestamp="1600300035494" />
+    <state width="2506" height="309" key="GridCell.Tab.1.left" timestamp="1600300035493">
+      <screen x="1920" y="0" width="2560" height="1080" />
+    </state>
+    <state width="2506" height="309" key="GridCell.Tab.1.left/1920.0.2560.1080/0.27.1920.1053@1920.0.2560.1080" timestamp="1600300035493" />
+    <state width="2506" height="309" key="GridCell.Tab.1.right" timestamp="1600300035494">
+      <screen x="1920" y="0" width="2560" height="1080" />
+    </state>
+    <state width="2506" height="309" key="GridCell.Tab.1.right/1920.0.2560.1080/0.27.1920.1053@1920.0.2560.1080" timestamp="1600300035494" />
     <state x="2361" y="214" width="1686" height="737" key="SettingsEditor" timestamp="1600029552987">
       <screen x="1920" y="0" width="2560" height="1080" />
     </state>
     <state x="2361" y="214" width="1686" height="737" key="SettingsEditor/1920.0.2560.1080/0.27.1920.1053@1920.0.2560.1080" timestamp="1600029552987" />
-    <state x="2822" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1600028025867">
+    <state x="2822" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1600029577406">
       <screen x="1920" y="0" width="2560" height="1080" />
     </state>
-    <state x="2822" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/1920.0.2560.1080/0.27.1920.1053@1920.0.2560.1080" timestamp="1600028025867" />
+    <state x="2822" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/1920.0.2560.1080/0.27.1920.1053@1920.0.2560.1080" timestamp="1600029577406" />
     <state x="3008" y="468" width="438" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600025205098">
       <screen x="1920" y="0" width="2560" height="1080" />
     </state>
@@ -720,6 +739,17 @@
       <screen x="1920" y="0" width="2560" height="1080" />
     </state>
     <state x="2890" y="259" width="672" height="678" key="search.everywhere.popup/1920.0.2560.1080/0.27.1920.1053@1920.0.2560.1080" timestamp="1600029456837" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="django-line">
+          <url>file://$PROJECT_DIR$/base/templates/base/home.html</url>
+          <line>29</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/django_pythonpro$pytest_in_test_home_py.coverage" NAME="pytest in test_home.py Coverage Results" MODIFIED="1572064918723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pypro/base/tests" />
