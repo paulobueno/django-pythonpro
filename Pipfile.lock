@@ -225,11 +225,10 @@
         },
         "rsa": {
             "hashes": [
-                "sha256:35c5b5f6675ac02120036d97cf96f1fde4d49670543db2822ba5015e21a18032",
-                "sha256:4d409f5a7d78530a4a2062574c7bd80311bc3af29b364e293aa9b03eea77714f"
+                "sha256:78f9a9bf4e7be0c5ded4583326e7461e3a3c5aae24073648b4bdfa797d78c9d2",
+                "sha256:9d689e6ca1b3038bc82bf8d23e944b6b6037bc02301a574935b2dd946e0353b9"
             ],
-            "markers": "python_version != '3.4'",
-            "version": "==4.5"
+            "version": "==4.7.2"
         },
         "s3transfer": {
             "hashes": [
