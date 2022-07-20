@@ -224,12 +224,8 @@
             "version": "==5.3.1"
         },
         "rsa": {
-            "hashes": [
-                "sha256:35c5b5f6675ac02120036d97cf96f1fde4d49670543db2822ba5015e21a18032",
-                "sha256:4d409f5a7d78530a4a2062574c7bd80311bc3af29b364e293aa9b03eea77714f"
-            ],
-            "markers": "python_version != '3.4'",
-            "version": "==4.5"
+            "hashes": [],
+            "version": "==4.9"
         },
         "s3transfer": {
             "hashes": [
